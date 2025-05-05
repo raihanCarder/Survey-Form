@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Raihan's Projects</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form method="post" id="survey-form">
+        <h1 id="title">Raihan's Projects</h1>
+        <p id="description">Thank you for going through my projects, I'd really appreciate it if you filled out this
+            Survey! :)</p>
+        <hr>
+        <fieldset>
+            <label for="name" id="name-label"> Name <input required type="text" id="name" placeholder="Enter your Name">
+                </lable>
+                <label for="email" id="email-label"> Email <input required type="email" id="email"
+                        placeholder="Enter your Email"> </lable>
+                    <label for="number" id="number-label"> Age (optional) <input type="number" id="number"
+                            placeholder="Enter your age" min="1" max="100"> </lable>
+                        <hr>
+                        <label for="dropdown"> How did you find out about my projects?
+                            <select id="dropdown">
+                                <option disabled selected value=""> Select an Option </option>
+                                <option value="friends"> Friends </option>
+                                <option value="family"> Family </option>
+                                <option value="linkedin"> Linkedin </option>
+                                <option value="co-workers"> Co-Workers </option>
+                                <option value="raihan"> Directly from Raihan </option>
+                            </select>
+                        </label>
+                        <hr>
+                        <p> Do I have your linkedin?</p>
+                        <label for="connected"> Yes! <input type="radio" id="connected" name="linkedin"
+                                value="Yes"></label>
+                        <label for="connected"> No!<input type="radio" id="connected" name="linkedin" value="No"
+                                checked></label>
+                        <label for="connected"> Not Sure!<input type="radio" id="connected" name="linkedin"
+                                value="Maybe"></label>
+                        <hr>
+                        <label> What projects would you like to see improved?
+                            <label>Project 1<input type="checkbox" value="project-one"></label>
+                            <label>Project 2<input type="checkbox" value="project-two"></label>
+                            <label>Project 3<input type="checkbox" value="project-three"></label>
+                            <label>Project 4<input type="checkbox" value="project-four"></label>
+                            <label>Project 5<input type="checkbox" value="project-five"></label>
+                        </label>
+                        <hr>
+                        <label> Any comments or suggestions?
+                            <textarea placeholder="Enter here!" id="comments" name="comments" rows="4"
+                                cols="50"></textarea>
+                        </label>
+                        <input type="submit" id="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
