@@ -1,2 +1,2 @@
 # First Project for Certification of Responsive Web Design on FreeCodeCamp! 
-# Learnt the basics of CSS and HTML and how to build a website!
+⚠️ Left Public to show my Journey on learning CSS and HTML.
